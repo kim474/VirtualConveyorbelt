@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
+     <Compile Include="Assets\Scripts\InstantiateBottle.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
