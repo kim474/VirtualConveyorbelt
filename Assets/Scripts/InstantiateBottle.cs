@@ -17,7 +17,7 @@ public class InstantiateBottle : MonoBehaviour
         Timer -= Time.deltaTime;
         if (Timer <= 0f)
         {
-            Instantiate(Bottle, new Vector3(1, 1, 0), Quaternion.identity);
+            Instantiate(Bottle, new Vector3(0.1f, 1.3f, -7.0f), Quaternion.identity);
             Timer = 3f;
         }
     }
