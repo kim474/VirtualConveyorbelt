@@ -1,0 +1,22 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Belt
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.737255 0.737255 0.737255
+Ks 0.010000 0.010000 0.010000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd RubberBelt.png
+
+newmtl Conveyor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.737255 0.737255 0.737255
+Ks 0.010000 0.010000 0.010000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Conveyor_diffuse.png
