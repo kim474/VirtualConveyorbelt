@@ -62,6 +62,7 @@
      <Compile Include="Assets\PhysicsConveyorAsset\Scripts\ConveyorBehavior.cs" />
      <Compile Include="Assets\PhysicsConveyorAsset\Scripts\RigidbodySmoothRegion.cs" />
      <Compile Include="Assets\PhysicsConveyorAsset\Scripts\RollerBehavior.cs" />
+     <Compile Include="Assets\Scripts\Box.cs" />
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
      <Compile Include="Assets\Scripts\InstantiateBottle.cs" />
      <Compile Include="Assets\Scripts\socketManager.cs" />
