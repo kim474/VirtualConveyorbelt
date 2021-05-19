@@ -53,15 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Physics Conveyor\Demo\Resources\Scripts\BoxMaterialPicker.cs" />
-     <Compile Include="Assets\Physics Conveyor\Demo\Resources\Scripts\DemoCameraOrbit.cs" />
-     <Compile Include="Assets\Physics Conveyor\Demo\Resources\Scripts\DemoManager.cs" />
-     <Compile Include="Assets\Physics Conveyor\Demo\Resources\Scripts\DemoSpawner.cs" />
-     <Compile Include="Assets\Physics Conveyor\Demo\Resources\Scripts\Killzone.cs" />
-     <Compile Include="Assets\Physics Conveyor\Scripts\BeltBehavior.cs" />
-     <Compile Include="Assets\Physics Conveyor\Scripts\ConveyorBehavior.cs" />
-     <Compile Include="Assets\Physics Conveyor\Scripts\RigidbodySmoothRegion.cs" />
-     <Compile Include="Assets\Physics Conveyor\Scripts\RollerBehavior.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Demo\Resources\Scripts\BoxMaterialPicker.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Demo\Resources\Scripts\DemoCameraOrbit.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Demo\Resources\Scripts\DemoManager.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Demo\Resources\Scripts\DemoSpawner.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Demo\Resources\Scripts\Killzone.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Scripts\BeltBehavior.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Scripts\ConveyorBehavior.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Scripts\RigidbodySmoothRegion.cs" />
+     <Compile Include="Assets\PhysicsConveyorAsset\Scripts\RollerBehavior.cs" />
+     <Compile Include="Assets\Scripts\Box.cs" />
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
      <Compile Include="Assets\Scripts\InstantiateBottle.cs" />
      <Compile Include="Assets\Scripts\socketManager.cs" />
