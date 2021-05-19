@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bottle
   - Box
+  - Bin1
   layers:
   - Default
   - TransparentFX
