@@ -6,7 +6,7 @@ public class socketManager : MonoBehaviour
     private void Start()
     {
         Debug.Log("start");
-        ws = new WebSocket("ws://localhost:8080");
+        ws = new WebSocket("ws://3.34.99.134:8080");
         ws.Connect();
         ws.OnMessage += (sender, e) =>
         {
