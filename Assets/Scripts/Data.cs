@@ -9,7 +9,8 @@ public class Data : MonoBehaviour
     public static int inputTrash = 0; //배출되는 모든 쓰레기의 수 
     public static int recyclingTrash = 0; //재활용되는 쓰레기의 수
     public static float recyclingRate = 0.0f; //재활용률
-    
+    public static string status;
+    jsonClass myData = new jsonClass();
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,13 @@ public class Data : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        myData.item = item;
+        myData.inputTrash = inputTrash;
+        myData.recyclingTrash = recyclingTrash;
+        myData.recyclingRate = recyclingRate;
+        myData.uptime = uptime;
+        status = JsonUtility.ToJson(myData);
+        //print(status);
      }
 
     void Status()

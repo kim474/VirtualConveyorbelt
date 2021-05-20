@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
      <Compile Include="Assets\Scripts\InstantiateBottle.cs" />
+     <Compile Include="Assets\Scripts\jsonClass.cs" />
      <Compile Include="Assets\Scripts\socketManager.cs" />
      <Compile Include="Assets\Scripts\UdpSocket.cs" />
      <None Include="Assets\Packages\WebSocketSharp-netstandard.1.0.1\lib\netstandard2.0\websocket-sharp.xml" />

@@ -22,8 +22,9 @@ private void Update()
         }
 if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("spacebar");
-            ws.Send("Hello");
+            Debug.Log("spacebar");      
+            ws.Send(Data.status);
+            //ws.Send("Hello");
         }  
     }
 }
