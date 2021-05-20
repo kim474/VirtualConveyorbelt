@@ -24,7 +24,7 @@ public class UdpSocket : MonoBehaviour
 {
     [HideInInspector] public bool isTxStarted = false;
 
-    [SerializeField] string IP = "192.168.1.104"; // local host
+    [SerializeField] string IP = "192.168.1.100"; // local host
     [SerializeField] int rxPort = 8000; // port to receive data from Python on
     [SerializeField] int txPort = 8001; // port to send data to Python on
 
@@ -78,7 +78,8 @@ public class UdpSocket : MonoBehaviour
                 IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, 0);
                 byte[] data = client.Receive(ref anyIP);
                 string text = Encoding.UTF8.GetString(data);
-                print(">> " + text);
+                print("##NEW INPUT## class number " + text);
+                InstantiateBottle.getClass(text); //<-추가
                 ProcessInput(text);
             }
             catch (Exception err)

@@ -21,12 +21,15 @@ public class Data : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
-    }
+     }
 
     void Status()
     {
-        print("총 쓰레기: " + inputTrash + " / 재활용된 쓰레기: " + recyclingTrash + " / 재활용률: " + recyclingRate * 100 + "% / " + uptime + "초째 가동 중");
+        if (inputTrash != 0)
+        {
+            recyclingRate = (float)recyclingTrash / (float)inputTrash;
+        }
+        print("총 쓰레기: " + inputTrash + " / 재활용된 쓰레기: " + recyclingTrash + " / 재활용률: " + recyclingRate * 100 + "% / " + uptime + "초째 가동 중 ###모든 데이터는 휴지통에 들어간 쓰레기에 한해 집계됨###");
     }
 
     void CountTime()

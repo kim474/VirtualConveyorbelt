@@ -3,6 +3,7 @@ using WebSocketSharp;
 public class socketManager : MonoBehaviour
 {
     WebSocket ws;
+
     private void Start()
     {
         Debug.Log("start");
