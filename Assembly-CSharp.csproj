@@ -70,35 +70,35 @@
      <Compile Include="Assets\Scripts\socketManager.cs" />
      <Compile Include="Assets\Scripts\UdpSocket.cs" />
      <None Include="Assets\Packages\WebSocketSharp-netstandard.1.0.1\lib\netstandard2.0\websocket-sharp.xml" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Recorder.Editor">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Recorder">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Recorder.Base">
  <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>C:/Users/14Z980-GA50K/git/VirtualConveyorbelt/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
