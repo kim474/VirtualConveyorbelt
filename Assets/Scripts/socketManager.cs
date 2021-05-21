@@ -3,6 +3,7 @@ using WebSocketSharp;
 public class socketManager : MonoBehaviour
 {
     WebSocket ws;
+
     private void Start()
     {
         Debug.Log("start");
@@ -21,8 +22,9 @@ private void Update()
         }
 if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("spacebar");
-            ws.Send("Hello");
+            Debug.Log("spacebar");      
+            ws.Send(Data.status);
+            //ws.Send("Hello");
         }  
     }
 }

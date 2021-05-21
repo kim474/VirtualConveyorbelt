@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7014703956183806262}
   - component: {fileID: 8493554368989965594}
   - component: {fileID: 1634496917181888511}
+  - component: {fileID: 114296192524024712}
   m_Layer: 0
   m_Name: Bottle_nolabel
   m_TagString: Bottle
@@ -109,3 +110,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 12022fc7494e5a14baf51dcc694cb878, type: 3}
+--- !u!114 &114296192524024712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014703956186001398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e1c032856df8b4495832fbcb54d092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
